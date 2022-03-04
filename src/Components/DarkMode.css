@@ -4,9 +4,9 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #000;
-    color: #fff;
-    border: 1px solid #000;
+    background: #0F0E0E;
+    color: #D5D1D2;
+    border: 1px solid #0F0E0E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
     height: 30px;
     border-radius: 50%;
     background: #D5D1D2;
-    color: #000;
+    color: #0F0E0E;
     border: 1px solid #D5D1D2;
     display: flex;
     justify-content: center;
