@@ -30,8 +30,8 @@ function DarkMode() {
     }
 
     return (
-        <button 
-            className= {mode ? 'btn_darkmode' : 'btn_lightmode'} 
+        <button
+            className= {mode ? 'darkmode' : 'lightmode'} 
             onClick={handleClick}
         >
             {mode ? <AdjustIcon/> : <AdjustIcon/>}

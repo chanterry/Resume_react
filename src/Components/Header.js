@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import DarkMode from './DarkMode';
+import PDF from './PDF';
 import { MapPinIcon, EnvelopeOIcon, MobilePhoneIcon, LinkedinIcon, GithubIcon } from 'react-line-awesome';
 
 function Header(){
@@ -46,7 +47,12 @@ function Header(){
                 </div>
             </div>
             <div className='options'>
-                <DarkMode/>
+                <div>
+                    <DarkMode/>
+                </div>
+                <div>
+                    <PDF/>
+                </div>
             </div>
         </div>
     </div>

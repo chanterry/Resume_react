@@ -29,6 +29,9 @@
 
 .options{
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .coordonnees_spacing{
@@ -45,4 +48,12 @@
 
 .adress, .email, .phone, .linkedin_account, .github_account{
     margin-left: var(--spacing-1);
+}
+
+/* PDF */
+.print_pdf{
+    display: flex;
+    flex-direction: center;
+
+    cursor: pointer;
 }
