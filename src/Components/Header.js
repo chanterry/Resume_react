@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import DarkMode from './DarkMode';
-import { MapPinIcon, EnvelopeOIcon, PhoneIcon, LinkedinIcon, GithubIcon } from 'react-line-awesome';
+import { MapPinIcon, EnvelopeOIcon, MobilePhoneIcon, LinkedinIcon, GithubIcon } from 'react-line-awesome';
 
 function Header(){
 
@@ -32,7 +32,7 @@ function Header(){
                         <a href='mailto:chanterry85@gmail.com'className='email'> chanterry85@gmail.com</a>
                     </div>
                     <div className='coordonnees'>
-                        <PhoneIcon />
+                        <MobilePhoneIcon />
                         <a href='tel:+33617340173' className='phone'> 06.17.34.01.73</a>
                     </div>
                     <div className='coordonnees'>

@@ -33,7 +33,7 @@ body.light {
   font-family: var(--body-font);
   font-weight: 200;
   background: #fff;
-  color: #000;
+  color: #0F0E0E;
   transition: all 0.2s ease-in-out;
 }
 
@@ -68,15 +68,6 @@ a {
   
 }
 
-@media screen and (min-width:768px) {
-    
-  /* grid */
-  .grid_container {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-  }
-}
-
 /* layout */
 
 .left_column, .right_column {
@@ -109,3 +100,11 @@ a {
   max-width: 210mm;
 } 
 
+@media screen and (min-width:768px) {
+    
+  /* grid */
+  .grid_container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+}
