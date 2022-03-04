@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500');
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+  /* colors */
+  --body-bg-color: #fff;
+  --text-color: #000;
+  --title-color: #000;
+
+  /* fonts */
+  --body-font: "poppins", "sans-serif";
+  --h1-font-size: 1.8rem;
+  --h2-font-size: 1.4rem;
+  --h3-font-size: 1.2rem;
+  --h4-font-size: 1rem;
+
+  /* spacing */
+  --spacing-1: .4rem;
+  --spacing-2: .8rem;
+  --spacing-3: 1.2rem;
+  --spacing-4: 1.6rem;
+  --spacing-5: 2rem;
+  --spacing-6: 2.4rem;
+  --spacing-7: 2.8rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body.light {
+  font-family: var(--body-font);
+  font-weight: 200;
+  background: #fff;
+  color: #000;
+  transition: all 0.2s ease-in-out;
+}
+
+.main{
+  padding: var(--spacing-4);
+}
+
+h1, h2, h3 {
+  margin-bottom: var(--spacing-1);
+  font-weight: 400;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+h3 {
+  margin-top: var(--spacing-3);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.titles{
+  text-transform: uppercase;
+  padding-top: var(--spacing-2);
+  padding-left: var(--spacing-5);
+  
+}
+
+@media screen and (min-width:768px) {
+    
+  /* grid */
+  .grid_container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* layout */
+
+.left_column, .right_column {
+  padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* CV print*/
+#cv_pdf{
+  width: 100% !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cv_print ul{
+  margin: 0;
+  padding: 0;
 }
+
+.cv_print ul li{
+  list-style: none;
+}
+
+.cv_print ul li:before{
+  content: '•';
+  display: inline-block;
+  font-size: 110%;
+  padding-right: 10px;
+}
+
+.cv_print .grid_container {
+  font-size: 10px !important;
+  max-width: 210mm;
+} 
+

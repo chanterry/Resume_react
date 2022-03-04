@@ -1,0 +1,35 @@
+.btn_darkmode{
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_lightmode{
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #D5D1D2;
+    color: #000;
+    border: 1px solid #D5D1D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.dark{
+    font-family: var(--body-font);
+    font-weight: 200;
+    background: #0F0E0E;
+    color: #D5D1D2;
+    transition: all 0.2s ease-in-out;
+}

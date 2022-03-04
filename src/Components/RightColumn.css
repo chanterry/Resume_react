@@ -1,0 +1,17 @@
+/* Spacing */
+
+.spacing_title_h3, .spacing_title_h3 ul, .other_experiences{
+    padding-left: var(--spacing-5);
+}
+
+.experiences_title{
+    font-weight: 400;
+}
+
+.experiences_title2{
+    font-weight: 200;
+}
+
+.spacing_bulletpoints{
+    padding-left: 4rem;
+}

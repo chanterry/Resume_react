@@ -1,0 +1,47 @@
+/* Titles */
+
+/* Component Education */
+.education {
+    padding-left: var(--spacing-5);
+  }
+  
+  /* Component Technologies */
+  .technologies{
+    margin-top: var(--spacing-3);
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .technologies i{
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Component Skills */
+  .skills{
+    margin-top: var(--spacing-3);
+    padding-left: var(--spacing-7);
+  }
+  
+  /* Component Languages */
+  .languages {
+    margin-top: var(--spacing-3);
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .languages img{
+    height: 50px;
+  }
+  
+  /* Component Hobbies */
+  
+  .hobbies{
+    margin-top: var(--spacing-3);
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .hobbies img{
+    height: 50px;
+  }
