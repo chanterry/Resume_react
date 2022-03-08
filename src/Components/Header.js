@@ -4,7 +4,7 @@ import DarkMode from './DarkMode';
 import PDF from './PDF';
 import { MapPinIcon, EnvelopeOIcon, MobilePhoneIcon, LinkedinIcon, GithubIcon } from 'react-line-awesome';
 
-function Header(){
+const Header = () => {
 
     return (
     <div id='header_bg' className='header_bg_light'>
@@ -48,10 +48,10 @@ function Header(){
             </div>
             <div className='options'>
                 <div>
-                    <DarkMode/>
+                    <DarkMode />
                 </div>
                 <div>
-                    <PDF/>
+                    <PDF />
                 </div>
             </div>
         </div>
