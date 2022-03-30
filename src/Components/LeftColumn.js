@@ -13,7 +13,6 @@ const LeftColumn = () => {
     return (
         <>
             <div className='LeftColumn'>
-
                 <Education data={DataEducation} />
                 <Technologies data2={DataTechnologies} />
                 <Skills data3={DataSkills} data4={DataSkills2} />

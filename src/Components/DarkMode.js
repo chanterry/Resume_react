@@ -2,13 +2,15 @@ import React from "react";
 import { useState } from "react";
 import './DarkMode.css';
 import { AdjustIcon } from 'react-line-awesome';
+import PDF from './PDF'
+import PDFDark from './PDFDark'
 
 function DarkMode() {
 
     const [mode, setMode] = useState (true);
 
     const handleClick = () => {
-        const body = document.body;
+        const body = document.body
         let changeClassNameheaderBG = document.getElementById('header_bg')
 
         if (body.classList.contains ('dark')){
@@ -26,16 +28,22 @@ function DarkMode() {
         } else if (changeClassNameheaderBG.classList.contains ('header_bg_light')){
             changeClassNameheaderBG.classList.add('header_bg_dark')
             changeClassNameheaderBG.classList.remove('header_bg_light')
-        }
+        }        
     }
 
     return (
-        <button
-            className= {mode ? 'darkmode' : 'lightmode'} 
-            onClick={handleClick}
-        >
-            {mode ? <AdjustIcon/> : <AdjustIcon/>}
-        </button>
+        <>
+            <div className="options_alignment">
+                <button
+                    className= {mode ? 'darkmode' : 'lightmode'} 
+                    onClick={handleClick}
+                >
+                    {mode ? <AdjustIcon/> : <AdjustIcon/>}
+                </button>
+
+                {mode ? <PDF/> : <PDFDark/>}
+            </div>
+        </>
     )
 }
 

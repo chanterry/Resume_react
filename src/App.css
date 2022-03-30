@@ -74,32 +74,6 @@ a {
   padding: 1rem;
 }
 
-/* CV print*/
-#cv_pdf{
-  width: 100% !important;
-}
-
-.cv_print ul{
-  margin: 0;
-  padding: 0;
-}
-
-.cv_print ul li{
-  list-style: none;
-}
-
-.cv_print ul li:before{
-  content: '•';
-  display: inline-block;
-  font-size: 110%;
-  padding-right: 10px;
-}
-
-.cv_print .grid_container {
-  font-size: 10px !important;
-  max-width: 210mm;
-} 
-
 @media screen and (min-width:768px) {
     
   /* grid */

@@ -9,7 +9,7 @@ function Education ({data}) {
 
                 {data.map((item) =>
                     <div className='education' key={item.id}>
-                        <h3>{item.degree} | ({item.year})</h3>
+                        <h3>{item.degree} ({item.year})</h3>
                         <p>{item.school} | {item.location}</p>
                     </div>
                 )}

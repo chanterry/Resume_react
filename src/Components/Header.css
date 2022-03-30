@@ -12,7 +12,7 @@
 
 .header_grid{
     display: grid;
-    grid-template-columns: 6fr 6fr 1fr;
+    grid-template-columns: 5fr 5fr 2fr;
 }
 
 .photo{
@@ -28,10 +28,10 @@
 }
 
 .options{
-    padding-top: 100px;
-    display: flex;
+    padding-top: 150px;
+    /*display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;*/
 }
 
 .coordonnees_spacing{
@@ -48,12 +48,4 @@
 
 .adress, .email, .phone, .linkedin_account, .github_account{
     margin-left: var(--spacing-1);
-}
-
-/* PDF */
-.print_pdf{
-    display: flex;
-    flex-direction: center;
-
-    cursor: pointer;
 }
