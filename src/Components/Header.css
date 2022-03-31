@@ -113,8 +113,8 @@
         padding-left: 80px;
     }
     .options{
-        position: fixed;
-        top: -140px;
+        position: absolute;
+        top: -120px;
         right: 25px;
     }
 }
