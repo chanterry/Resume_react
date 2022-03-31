@@ -1,8 +1,7 @@
 import React from "react";
+import PDF_CV_Dark from '../Img/CV_TC_Dark.pdf';
 
 function PDFDark() {
-
-    const PDF_CV_Dark = "./img/CV_TC_Dark.pdf";
 
     return(
         <div>

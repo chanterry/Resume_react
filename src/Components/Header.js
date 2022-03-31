@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import DarkMode from './DarkMode';
 import { MapPinIcon, EnvelopeOIcon, MobilePhoneIcon, LinkedinIcon, GithubIcon } from 'react-line-awesome';
+import Portrait from '../Img/photo_CV.jpg';
 
 const Header = () => {
 
@@ -10,7 +11,7 @@ const Header = () => {
         <div className='header_grid'>
             <div className='photo'>
                 <img 
-                    src='./img/photo_CV.jpg'  
+                    src={Portrait} 
                     alt='portrait'       
                     style={{ 
                         height: '200px',
@@ -41,7 +42,7 @@ const Header = () => {
                     </div>
                     <div className='coordonnees'>
                         <GithubIcon />
-                        <a href='https://github.com/terryaki75' target="_blank" className='github_account' rel="noopener noreferrer"> github.com/terryaki75</a>
+                        <a href='https://github.com/terryaki75' target="_blank" className='github_account' rel="noopener noreferrer"> github.com/chanterry</a>
                     </div>
                 </div>
             </div>

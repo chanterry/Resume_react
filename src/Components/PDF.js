@@ -1,8 +1,8 @@
 import React from "react";
+import PDF_CV from '../Img/CV_TC.pdf';
 
 function PDF() {
 
-    const PDF_CV = "./img/CV_TC.pdf";
 
     return(
         <div>
