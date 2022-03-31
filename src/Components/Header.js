@@ -35,7 +35,7 @@ const Header = () => {
                     </div>
                     <div className='coordonnees'>
                         <GithubIcon />
-                        <a href='https://github.com/terryaki75' target="_blank" className='github_account' rel="noopener noreferrer"> github.com/chanterry</a>
+                        <a href='https://github.com/chanterry' target="_blank" className='github_account' rel="noopener noreferrer"> github.com/chanterry</a>
                     </div>
                 </div>
             </div>
