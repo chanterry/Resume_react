@@ -10,19 +10,12 @@ const Header = () => {
     <div id='header_bg' className='header_bg_light'>
         <div className='header_grid'>
             <div className='photo'>
-                <img 
-                    src={Portrait} 
-                    alt='portrait'       
-                    style={{ 
-                        height: '200px',
-                        borderRadius: '50%',
-                    }}>
-                </img>
-               <h1> Terry Chan</h1>
+                <img src={Portrait} alt='portrait' className='portrait'></img>
+               <h1 className='name'> Terry Chan</h1>
             </div>
 
             <div className='infos'>
-                <h2 className='header_title'>Développeur Web Front-End</h2>
+                <h2 className='header_title'>Développeur Front-End</h2>
                 <div className='coordonnees_spacing'>
                     <div className='coordonnees'>
                         <MapPinIcon />

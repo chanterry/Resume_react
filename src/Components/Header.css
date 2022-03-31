@@ -1,18 +1,15 @@
 .header_bg_dark{
     background-image: url('../Img/header_bg_dark.jpg');
     background-size: cover;
+    position: sticky;
     height: 600px;
 }
 
 .header_bg_light{
     background-image: url('../Img/header_bg_light.jpg');
     background-size: cover;
+    position: sticky;
     height: 600px;
-}
-
-.header_grid{
-    display: grid;
-    grid-template-columns: 5fr 5fr 2fr;
 }
 
 .photo{
@@ -23,15 +20,13 @@
     align-items: center;
 }
 
-.infos{
-    padding-top: 100px;
+.portrait{
+    height: 200px;
+    border-radius: 50%;
 }
 
-.options{
-    padding-top: 150px;
-    /*display: flex;
-    flex-direction: column;
-    justify-content: space-between;*/
+.infos{
+    padding-top: 100px;
 }
 
 .coordonnees_spacing{
@@ -48,4 +43,78 @@
 
 .adress, .email, .phone, .linkedin_account, .github_account{
     margin-left: var(--spacing-1);
+}
+
+.options{
+    padding-top: 150px;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+}
+
+/* RESPONSIVE */
+@media screen and (min-width:960px) {
+    .header_grid{
+      display: grid;
+      grid-template-columns: 5fr 5fr 2fr;
+    }
+}
+
+@media screen and (min-width:480px) and  (max-width:960px){
+
+    .header_grid{
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+      }
+    .photo{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .infos{
+        padding-top: 50px;
+    }
+    .coordonnees_spacing{
+        display: inline;
+        flex-direction: column;
+    }
+    .options{
+        padding-top: 75px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .photo{
+        padding-top: 10px;
+    }
+    .portrait{
+        height: 100px;
+    }
+    .name{
+        font-size: var(--h2-font-size);
+    }
+    .infos{
+        padding-top: 5px;
+    }
+    .header_title{
+        text-align: center;
+    }
+    .coordonnees_spacing{
+        display: inline;
+        flex-direction: column;
+    }
+    .coordonnees{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        font-size: .8rem;
+        padding-left: 80px;
+    }
+    .options{
+        position: fixed;
+        top: -140px;
+        right: 25px;
+    }
 }

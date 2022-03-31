@@ -6,7 +6,7 @@ function PDF() {
 
     return(
         <div>
-            <a  href={PDF_CV} target="_blank" rel="noreferrer" ><i class="fa-solid fa-file-pdf fa-xl"></i></a>
+            <a  href={PDF_CV} target="_blank" rel="noreferrer" ><i className="fas fa-file-pdf fa-xl pdf_icon"></i></a>
         </div>
     )
 }

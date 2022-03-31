@@ -33,3 +33,12 @@ body.dark{
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width:480px){
+    .darkmode, .lightmode{
+        margin-bottom: 25px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+}
