@@ -8,10 +8,10 @@ const DataProjects = [
     },
     {
         id: 2,
-        title:'Projet La Cité',
-        description:'Refonte du site web d une association cultuelle',
-        link:'fr.egliselacite.com',
-        tools:'HTML, CSS, JavaScript',
+        title:'Projet Liste Todo',
+        description:'Application pour créer de listes todo',
+        link:'chanterry.github.io/todo-list',
+        tools:'React, Bootstrap, JavaScript',
     },
     {
         id: 3,
